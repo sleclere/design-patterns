@@ -1,4 +1,4 @@
-package stragegy.taxStrategy;
+package strategy.taxStrategy;
 
 public class Form1040A implements FileAlgorithm {
 

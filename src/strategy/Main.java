@@ -1,7 +1,7 @@
-package stragegy;
+package strategy;
 
-import stragegy.taxStrategy.Form1040A;
-import stragegy.taxStrategy.Form1040EZ;
+import strategy.taxStrategy.Form1040A;
+import strategy.taxStrategy.Form1040EZ;
 
 public class Main {
 

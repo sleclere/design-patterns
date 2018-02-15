@@ -1,4 +1,4 @@
-package stragegy.taxStrategy;
+package strategy.taxStrategy;
 
 public interface FileAlgorithm {
 

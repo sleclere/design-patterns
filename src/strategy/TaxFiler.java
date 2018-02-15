@@ -1,6 +1,6 @@
-package stragegy;
+package strategy;
 
-import stragegy.taxStrategy.FileAlgorithm;
+import strategy.taxStrategy.FileAlgorithm;
 
 public class TaxFiler {
 
