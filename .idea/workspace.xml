@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53ac50c0-130d-479c-865e-38b31efd73f9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/customImpl/implementations/observers/AnnunciatorObserver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/customImpl/implementations/observers/AudioPanelObserver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/customImpl/implementations/observers/PrimaryFlightDisplayObserver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/customImpl/implementations/subjects/EngineTemperatureSubject.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/customImpl/interfaces/Observer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/javaUtilImpl/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/javaUtilImpl/implementations/observers/AnnunciatorObserver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/javaUtilImpl/implementations/observers/AudioPanelObserver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/javaUtilImpl/implementations/observers/PrimaryFlightDisplayObserver.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/observer/javaUtilImpl/implementations/subjects/EngineTemperatureSubject.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Main.java" afterPath="$PROJECT_DIR$/src/observer/customImpl/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/observer/implementations/AnnunciatorObserver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/observer/implementations/AudioPanelObserver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/observer/implementations/EngineTemperatureSubject.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/observer/implementations/PrimaryFlightDisplayObserver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/observer/interfaces/Observer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/observer/interfaces/Subject.java" afterPath="$PROJECT_DIR$/src/observer/customImpl/interfaces/Subject.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -384,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518669754649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding observer example">
+      <created>1518891227912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518891227912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,6 +526,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,6 +534,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
