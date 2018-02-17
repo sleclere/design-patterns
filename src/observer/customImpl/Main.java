@@ -1,10 +1,10 @@
-package observer;
+package observer.customImpl;
 
 
-import observer.implementations.AnnunciatorObserver;
-import observer.implementations.AudioPanelObserver;
-import observer.implementations.EngineTemperatureSubject;
-import observer.implementations.PrimaryFlightDisplayObserver;
+import observer.customImpl.implementations.observers.AnnunciatorObserver;
+import observer.customImpl.implementations.observers.AudioPanelObserver;
+import observer.customImpl.implementations.subjects.EngineTemperatureSubject;
+import observer.customImpl.implementations.observers.PrimaryFlightDisplayObserver;
 
 public class Main {
 
@@ -25,19 +25,18 @@ public class Main {
         // new up subject
         EngineTemperatureSubject subject = new EngineTemperatureSubject();
         // new up observers
-        PrimaryFlightDisplayObserver pfdObserver = new PrimaryFlightDisplayObserver();
-        AnnunciatorObserver annunciatorObserver = new AnnunciatorObserver();
-        AudioPanelObserver audioPanelObserver = new AudioPanelObserver();
+        PrimaryFlightDisplayObserver pfdObserver = new PrimaryFlightDisplayObserver(subject);
+        AnnunciatorObserver annunciatorObserver = new AnnunciatorObserver(subject);
+        AudioPanelObserver audioPanelObserver = new AudioPanelObserver(subject);
 
-        // register observers
-        subject.registerObserver(pfdObserver);
-        subject.registerObserver(annunciatorObserver);
-        subject.registerObserver(audioPanelObserver);
 
-        subject.notifyObservers();
+        subject.updateEngineTemperature(10);
+        subject.updateEngineTemperature(77);
+        subject.updateEngineTemperature(180);
+        subject.updateEngineTemperature(220);
+        subject.updateEngineTemperature(180);
 
         subject.removeObserver(annunciatorObserver);
 
-        subject.notifyObservers();
     }
 }
